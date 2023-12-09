@@ -1,0 +1,26 @@
+{
+    "name":"crimson",
+    "title": "Crimson",
+    "description": "Système pour Crimson v1.",
+    "author": "Apomenon",
+    "version": 0.01,
+    "minimumCoreVersion":"11",
+    "compatibleCoreVersion":"11",
+    "esmodules": [
+        "crimson.js"
+    ],
+    "styles": [
+        "crimson.css"
+    ],
+    "packs": [
+
+    ],
+    "languages": [
+
+    ],
+    "gridDistance": 1,
+    "gridUnits": "m",
+    "primaryTokenAttribute":"vie",
+    "secondaryTokenAttribute":"mana",
+    "initiative":"1d20+@dex"
+}
