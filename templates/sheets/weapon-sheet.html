@@ -1,0 +1,52 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
+        <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
+    </header>
+    <div>
+        <table>
+            <tr>
+                <th>{{localize "crimson.weapon.damageType"}}</th>
+                <th>{{localize "crimson.weapon.group"}}</th>
+                <th>{{localize "crimson.weapon.damage"}}</th>
+                <th>{{localize "crimson.weapon.type"}}</th>
+                <th>{{localize "crimson.weapon.reload"}}</th>
+                <th>{{localize "crimson.weapon.range"}}</th>
+                <th>{{localize "crimson.weapon.price"}}</th>
+            </tr>
+            <tr>
+                <td>
+                    <select name="data.group">
+                        {{#select data.group}}
+                        {{#each config.weaponGroup as |name type|}}
+                        <option value="{{type}}">{{name}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                </td>
+                <td>
+                    <select name="data.damageType">
+                        {{#select data.damageType}}
+                        {{#each config.damageType as |name type|}}
+                        <option value="{{type}}">{{name}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                </td>
+                <td>
+                    <input name ="data.damage" type="text" value="{{data.damage}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name ="data.reload" type="text" value="{{data.reload}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name ="data.range" type="text" value="{{data.range}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name ="data.price" type="text" value="{{data.price}}" data-dtype="Number" />
+                </td>
+            </tr>
+        </table>
+        <textarea name ="data.description">{{data.description}}</textarea>
+    </div>
+</form>

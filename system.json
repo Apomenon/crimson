@@ -16,6 +16,16 @@
 
     ],
     "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang.en.json"
+        },
+        {
+            "lang": "fr",
+            "name": "fr",
+            "path": "lang.fr.json"
+        }
 
     ],
     "gridDistance": 1,

@@ -1,4 +1,29 @@
 {
     "Actor": {},
-    "Item": {}
+    "Item": {
+        "types":[
+            "weapon"
+        ],
+        "templates":{
+            "itemDescription":{
+                "descritpion":""
+            }
+        },
+        "weapon":{
+            "templates":["itemDescription"],
+            "damageType":"",
+            "group":"unarmed",
+            "damage":0,
+            "reload":0,
+            "range":1,
+            "price":0
+        },
+        "armor":{
+            "templates":["itemDescription"],
+            "minCON":0,
+            "group":"light",
+            "armorBonus":0,
+            "price":0
+        }
+    }
 }

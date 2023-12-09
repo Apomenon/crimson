@@ -1,0 +1,21 @@
+{
+    "crimson" : {
+        "attack": {
+            "none": "",
+            "natural": "Natural",
+            "guns": "Guns",
+            "martialArts": "Martial Arts",
+            "magic": "Magic",
+            "creature": "Creature"
+        },
+        "weapon": {
+            "attackWith":"Attack with:",
+            "group":"Group",
+            "damage":"Damage",
+            "type":"Type",
+            "reload":"Reload",
+            "range":"Range",
+            "price":"Price"
+        }
+    }
+}

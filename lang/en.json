@@ -1,0 +1,39 @@
+{
+    "crimson" : {
+        "weaponGroup": {
+            "none": "",
+            "unarmed": "Unarmed",
+            "guns": "Gunds",
+            "crossbow": "Crossbow",
+            "bow": "Bow",
+            "hast": "Hast",
+            "throwing":"Throwing",
+            "flails":"Flails",
+            "axes":"Axes",
+            "lightBlades":"LightBlades",
+            "heavyBlades":"HeavyBlades",
+            "hammers":"Hammers"
+        },
+        "damageType": {
+            "none": "",
+            "piercing": "Piercing",
+            "blunt": "Blunt",
+            "slashing": "Slashing",
+            "magic": "Magic",
+            "elementar": "Elementar",
+            "life": "Life",
+            "void": "Void",
+            "power": "Power"
+        },
+
+        "weapon": {
+            "damageType":"Damage type:",
+            "group":"Weapon group:",
+            "damage":"Damage",
+            "reload":"Reload",
+            "range":"Range",
+            "price":"Price"
+        }
+    }
+}
+
