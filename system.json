@@ -19,12 +19,12 @@
         {
             "lang": "en",
             "name": "English",
-            "path": "lang.en.json"
+            "path": "lang/en.json"
         },
         {
             "lang": "fr",
             "name": "fr",
-            "path": "lang.fr.json"
+            "path": "lang/fr.json"
         }
 
     ],
